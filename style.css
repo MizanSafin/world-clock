@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "poppins",sans-serif;
+  background-color: #184a1bce;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+h2{
+  margin-top:20px;
+  color: #f0f0f0;
+}
+
+.time-container{
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+
+.important-cities{
+  display: flex;
+  gap: 1rem;
+  margin: 30px 0;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #c0c0a5;
+  padding: 20px;
+  
+}
+
+.important-cities h3{
+  font-size: 16px;
+  color: #322001;
+  
+}
+
+.search-box{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 30px 0;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+   background-color: #c0c0a5;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.search-box label{
+  font-size: 16px;
+  color:#322001;
+}
+
+.search-box input{
+  padding: 7px;
+  outline: 0;
+  border: 0;
+  border-radius: 5px;
+}
+
+.search-box button{
+  padding: 7px;
+  outline: 0;
+  border: 0;
+  border-radius: 5px;
+  background-color: #000033;
+  cursor: pointer;
+  color: #f0f0f0;
+}
+
+.display-box{
+  color: #f0f0f0;;
+}
+
+mark{
+  padding: 5px 20px;
+  background-color: #acb441;
+}
+
+.signature img{
+  width: 100px;
+  position: fixed;
+  top: 10px;
+  right:10px;
+  mix-blend-mode: multiply;
+  opacity: .5;
+}
